@@ -1,0 +1,138 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+.Hero {
+  width: 100%;
+  height: 120vh;
+  background-image: url("./img/eyes-portrait-person-girl-18495.jpg");
+  background-position: 50% 50%;
+}
+
+.Navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-top: 35px;
+  padding-right: 2rem;
+}
+
+.NavbarLogo span {
+  color: whitesmoke;
+  font-size: 2.2rem;
+  font-family: sans-serif;
+}
+
+.NavbarElement a {
+  margin-right: 45px;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+}
+
+.SectionText {
+  margin-top: 160px;
+}
+
+.Hero h1 {
+  font-weight: 900;
+  font-size: 14rem;
+  text-align: center;
+  line-height: 0.8;
+  color: #ffffff;
+}
+
+.EmptyDiv {
+  height: 10px;
+  margin: -94px auto 0 0;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.SectionP {
+  display: flex;
+  width: 426px;
+  min-height: 186px;
+  height: auto;
+  margin: 174px 0 60px auto;
+}
+
+.SectionP2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  padding: 27px 30px;
+  max-width: 100%;
+}
+
+.SectionP2 p {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0 71px 0 0;
+  color: #f1c50e;
+}
+
+.SectionP2 a {
+  /* border-bottom: 2px solid #f1c50e; */
+  padding-top: 20px;
+  /* text-decoration: none; */
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0 71px 0 0;
+  color: #f1c50e;
+  text-underline-position: under;
+}
+
+@media screen and (max-width: 800px) {
+  .Hero h1 {
+    font-weight: 900;
+    font-size: 7rem;
+    text-align: center;
+    line-height: 0.8;
+    color: #ffffff;
+  }
+  .NavbarLogo span {
+    font-size: 1.4rem;
+  }
+
+  .NavbarElement a {
+    display: none;
+    font-size: 0.9rem;
+    margin-right: 5px;
+  }
+  .Navbar {
+    padding-right: 1rem;
+  }
+  .EmptyDiv {
+    margin: -40px auto 0 0;
+  }
+  .SectionP {
+    margin: 140px 0 60px auto;
+  }
+}
+
+@media screen and (max-width: 898px) {
+  .NavbarLogo span {
+    font-size: 1.6rem;
+  }
+  .NavbarElement a {
+    /* display: none; */
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+}
